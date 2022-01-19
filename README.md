@@ -31,7 +31,7 @@ I thought what should to do after Login and Signup, so instead of getting boring
      
    - then type 
    
-     > **cd android press**
+     > **cd android**
      
      and press enter
    - then type  
