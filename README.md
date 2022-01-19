@@ -18,28 +18,28 @@ I thought what should to do after Login and Signup, so instead of getting boring
  - open terminal to this project root directory do as below follows:
    - copy paste this command in your terminal and hit enter :
    
-      > keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+      > **keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000**
        
    - it will ask for password, type your desired password and press enter
    - it will generate this file **my-upload-key.keystore** in your project root directory 
-   - cut the my-upload-key.keystore file and paste into android/app in this project directory
-   - go to android/gradle.properties file in project directory and change this below ***** value to you passwords
+   - cut the **my-upload-key.keystore** file and paste into **android/app** in this project directory
+   - go to **android/gradle.properties** file in project directory and change this below ***** value to you passwords
    
-     > MYAPP_UPLOAD_STORE_PASSWORD=*****
+     > **MYAPP_UPLOAD_STORE_PASSWORD=*******
      
-     > MYAPP_UPLOAD_KEY_PASSWORD=*****
+     > **MYAPP_UPLOAD_KEY_PASSWORD=*******
      
    - then type 
    
-     > cd android press
+     > **cd android press**
      
      and press enter
    - then type  
    
-     > ./gradlew bundleRelease
+     > **./gradlew bundleRelease**
      
      and press enter
-   - it will generate apk into /android/app/build/outputs/apk/release
+   - it will generate apk into **/android/app/build/outputs/apk/release**
    
    **That's it! you successfully generated apk.**
    
