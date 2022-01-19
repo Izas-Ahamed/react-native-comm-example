@@ -23,7 +23,7 @@ I thought what should to do after Login and Signup, so instead of getting boring
    - it will ask for password, type your desired password and press enter
    - it will generate this file **my-upload-key.keystore** in your project root directory 
    - cut the **my-upload-key.keystore** file and paste into **android/app** in this project directory
-   - go to **android/gradle.properties** file in project directory and change this below ***** value to you passwords
+   - go to **android/gradle.properties** file in project directory and change this below ***** value to your password that you entered while generating my-upload-key.keystore file
    
      > **MYAPP_UPLOAD_STORE_PASSWORD=*******
      
